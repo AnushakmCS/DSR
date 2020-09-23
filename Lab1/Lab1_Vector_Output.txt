@@ -1,0 +1,55 @@
+> vec<-c(20,30,40,60)
+> vec
+[1] 20 30 40 60
+> vec * 2
+[1]  40  60  80 120
+> vec / 2
+[1] 10 15 20 30
+> vec %% 2
+[1] 0 0 0 0
+> vec % / % 2
+Error in vec % / % 2 : could not find function "% / %"
+> vec %/% 2
+[1] 10 15 20 30
+> vec + 6
+[1] 26 36 46 66
+> class(vec)
+[1] "numeric"
+> min(c(1.2,3,3.4),c(2,3)) + c(8,9)
+[1]  9.2 10.2
+> c(2,3,4,12) ^ c(1,2)
+[1]   2   9   4 144
+> getwd()
+[1] "C:/Users/ANUSHA/OneDrive/Documents"
+> list.files()
+[1] "Anusha's Notebook.url"   "Custom Office Templates" "desktop.ini"            
+[4] "OneNote Notebooks"       "R"                       "Vector.R"               
+[7] "Zoom"                   
+> help(plot)
+> example(mean)
+
+mean> x <- c(0:10, 50)
+
+mean> xm <- mean(x)
+
+mean> c(xm, mean(x, trim = 0.10))
+[1] 8.75 5.50
+> find('plot')
+[1] "package:graphics" "package:base"    
+> x<-c(1:10)
+> abs(c(-1,-2))
+[1] 1 2
+> sqrt(c(2,3))
+[1] 1.414214 1.732051
+> sum(c(2,4,5))
+[1] 11
+> example(mean)
+
+mean> x <- c(0:10, 50)
+
+mean> xm <- mean(x)
+
+mean> c(xm, mean(x, trim = 0.10))
+[1] 8.75 5.50
+> prod(c(2,3,4))
+[1] 24
