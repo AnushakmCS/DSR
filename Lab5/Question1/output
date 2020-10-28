@@ -1,0 +1,29 @@
+> empid <- c(1:10)
+> salary <- sample.int(100,10)
+> salary
+ [1] 52 93 24 35 25  5 37 73 86  7
+> marital_status <- c("Married","Married","Bachelor","Bachelor","Married","Bachelor","Married","Bachelor","Married","Bachelor")
+> marital_status
+ [1] "Married"  "Married"  "Bachelor" "Bachelor" "Married"  "Bachelor" "Married"  "Bachelor"
+ [9] "Married"  "Bachelor"
+> df <- data.frame(empid,salary,marital_status)
+> df
+   empid salary marital_status
+1      1     52        Married
+2      2     93        Married
+3      3     24       Bachelor
+4      4     35       Bachelor
+5      5     25        Married
+6      6      5       Bachelor
+7      7     37        Married
+8      8     73       Bachelor
+9      9     86        Married
+10    10      7       Bachelor
+> boxplot(salary ~ marital_status,data = df)
+Error in plot.new() : figure margins too large
+> boxplot
+function (x, ...) 
+UseMethod("boxplot")
+<bytecode: 0x00000222ab7da6b8>
+<environment: namespace:graphics>
+> 
